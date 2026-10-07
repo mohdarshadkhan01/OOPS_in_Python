@@ -18,8 +18,4 @@ while line != "END":
             matrix[int(row)][int(col)] += int(num)
         else:
             matrix[int(row)][int(col)] -= int(num)
-    else:
-        print("Invalid coordinates")
-    line = input()
-
-[print(' '.join(map(str, row))) for row in matrix]
+   
