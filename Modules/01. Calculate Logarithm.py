@@ -10,7 +10,3 @@ def solve():
     else:
         result = log(number, int(base_str))
     return f'{result:.2f}'
-
-
-
-print(solve())
