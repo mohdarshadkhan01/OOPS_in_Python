@@ -1,6 +1,4 @@
 from math import log
-
-
 def solve():
     number = int(input())
     base_str = input()
@@ -10,3 +8,4 @@ def solve():
     else:
         result = log(number, int(base_str))
     return f'{result:.2f}'
+print(solve())
